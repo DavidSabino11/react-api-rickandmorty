@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="results">
+      <div className="res">
         {characters.map((character) => (
           <div>
             <img src={character.image} alt={character.name}></img>
