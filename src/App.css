@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  padding: 0%;
+  margin: 0%;
 }
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
 
 .res{
   display: grid;
@@ -9,4 +17,25 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
+}
+
+.header {
+  background-color: #87CEEB;
+  text-align: center;
+  padding: 15px;
+}
+
+.header input {
+  height: 30px;
+  width: 300px;
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid #57bde6;
+}
+
+.name {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #4b4b4b;
 }
